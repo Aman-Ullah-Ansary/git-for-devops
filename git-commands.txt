@@ -1,0 +1,36 @@
+git init
+rm testing.py
+git init
+dir -a
+git status
+ls
+python -u "c:\Users\write\OneDrive\Desktop\git-for-devops\testing.py"       
+clear
+git status
+git add testing.py
+git status
+git rm --cached
+git status
+git rm --cached testing.py
+git status
+git add testing.py
+git status
+git commit -m "added testing file"
+git status
+git commit -m "added testing files"
+git config --global user.email "write2amanansary@gmail.com"  git config ... 
+git config --global user.name "Aman-Ullah-Ansary"
+git config --global user.email "write2amanansary@gmail.com"
+git commit -m "added testing files"
+git status
+rm testing.py
+git restore testing.py
+git remote add origin https://github.com/Aman-Ullah-Ansary/git-for-devop... 
+git remote -v
+clear
+git remote set-url origin https://...
+git remote -v
+git push origin master
+git remote -v
+git branch
+git push origin main
